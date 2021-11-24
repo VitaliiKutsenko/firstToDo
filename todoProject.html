@@ -1,0 +1,68 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+    <body>
+       <header>ToDolist</header>
+            <main id="todoMain">
+                <label id="searchLabel" for="todoSearch"><div id="searchButton" value="">&#128269
+                    <input id="todoSearch" type="text" placeholder="search by title"></div>
+                </label>    
+                    <div class="status-header">              
+                        <div class="status">
+                            <div class="status-current">All</div>
+                            <button id="status-button"></button>
+                        </div> 
+                            <div class="status-body"> 
+                                <div class="status-item">All</div>
+                                <div class="status-item">open</div>
+                                <div class="status-item">done</div>
+                            </div>     
+                        </div>     
+                        <div class="priority-header">              
+                            <div class="prior">
+                                <div class="priority-current">All</div>
+                                <button id="priority-button"></button>
+                            </div> 
+                            <div class="priority-body"> 
+                                <div class="priority-item">All</div>
+                                <div class="priority-item">Hight</div>
+                                <div class="priority-item">Normal</div>
+                                <div class="priority-item">Low</div>
+                            </div> 
+                        </div>
+                                <button id="todoCreate">Create</button>
+                        <div id="modalWindow">
+                            <div id="todoModal">
+                                <label for="add-input">Title</label>
+                                    <input autocomplete="off" value="" name="title" id="add-input" placeholder="Title">
+                                <label for="ModalDescription">Description</label>
+                                    <input autocomplete="off"  value="" type="text" name="description" id="modal-description" placeholder="Description">
+                                <label for="modalPriority">Priority</label>
+                                    <div class="modal-header">              
+                                        <div class="modal">
+                                            <div class="modal-current">Hight</div>
+                                                <button id="modal-button"></button>
+                                            </div> 
+                                            <div class="modal-body">
+                                                <div class="modal-item">Hight</div>
+                                                <div class="modal-item">Normal</div>
+                                                <div class="modal-item">Low</div>
+                                            </div> 
+                                    </div>
+                                            <div id="modalMenu"> 
+                                                <button id="modal-cancel">Cancel</button>
+                                                <button id="modal-save">Save</button>
+                                            </div>
+                                        </div>
+                                    </div> 
+            </main>
+   
+        <div class="todo"></div>
+        <footer id="todoFooter">VITALIY KUTCENKO</footer>
+        <script src="todoJs.js"></script>
+    </body>
+</html>

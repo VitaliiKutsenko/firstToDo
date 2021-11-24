@@ -1,0 +1,24 @@
+{
+  "name": "firsttodo",
+  "version": "1.0.0",
+  "description": "html css javascript",
+  "main": "todoJs.js",
+  "scripts": {
+    "test": "start"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/VitaliiKutsenko/firstToDo.git"
+  },
+  "keywords": [
+    "javascript",
+    "css",
+    "html"
+  ],
+  "author": "Vitalii Kutsenko",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/VitaliiKutsenko/firstToDo/issues"
+  },
+  "homepage": "https://github.com/VitaliiKutsenko/firstToDo#readme"
+}
